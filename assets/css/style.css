@@ -1,0 +1,28 @@
+.bnt{
+    --bs-btn-bg: #198754
+    --bs-btn-border-color: #146c43;
+    --bs-btn-houver-color: #146c43;
+    
+}
+
+
+    main{
+        margin-top: 3rem;
+    }
+    .carousel-item{
+        height: 400px;
+
+    }
+    
+    .carousel-item img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel-item::before{
+        content: "";
+        width: 100px;
+        height: 100%;
+        background: linear-gradient(trasnparent,rgb (31,31,31));
+        position: absolute;
+    }
