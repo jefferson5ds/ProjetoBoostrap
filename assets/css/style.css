@@ -26,3 +26,15 @@
         background: linear-gradient(trasnparent,rgb (31,31,31));
         position: absolute;
     }
+
+    #menu{
+        margin-top: 10px;
+    }
+    #card{
+        margin: 10px;
+    }
+    .card img{
+        height: 300px;
+        object-fit: cover;
+        
+    }
