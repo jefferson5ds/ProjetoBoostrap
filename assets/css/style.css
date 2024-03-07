@@ -3,11 +3,17 @@
     --bs-btn-border-color: #146c43;
     --bs-btn-houver-color: #146c43;
     
-}
+}   
+    nav{
+        
+    }
 
 
     main{
         margin-top: 3rem;
+    }
+    section{
+        scroll-margin-top:6rem ;
     }
     .carousel-item{
         height: 400px;
@@ -36,5 +42,14 @@
     .card img{
         height: 300px;
         object-fit: cover;
+        
+    }
+    .container{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    footer{
+        text-align: center;
+        padding: 5px;
         
     }
